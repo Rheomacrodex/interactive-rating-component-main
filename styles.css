@@ -1,0 +1,57 @@
+body{
+  display: grid;
+  justify-items:center;
+  font-family: "Overpass";
+  background-color: black;
+}
+main{
+  justify-items:center;
+  margin-top: 20%;
+}
+.card{
+  background-color: hsl(216, 12%, 8%);
+  width:45%;
+}
+.btn{
+  background-color: hsl(213, 19%, 18%);
+}
+.btn-circle{
+  width: 60px;
+  height: 60px;
+}
+.h1, .btn{
+  color: hsl(0, 0%, 100%);
+}
+p{
+  color:hsl(217, 12%, 63%);
+  
+
+}
+.btn-submit{
+  background-color: hsl(25, 97%, 53%);
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.btn:hover{
+  background-color:hsl(25, 97%, 53%) ;
+  color: white;
+}
+
+.btn-submit:hover{
+  background-color: white;
+  color:hsl(25, 97%, 53%) ;
+} 
+
+#ratingText{
+  background-color:hsl(213, 19%, 18%);
+  border: solid;
+  border-color:hsl(213, 19%, 18%) ;
+}
+@media screen and (max-width:568px){
+  .card{
+    width:90%;
+  }
+}
